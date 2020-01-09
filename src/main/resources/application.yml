@@ -17,6 +17,7 @@ spring:
       server:
         native:
           search-locations: file:///C:/eclipseProjects/msa-architecture-config-server/conf # config file의 위치, 윈도우의 경우 "/"가 추가로 필요하다.
+          #search-locations: file://${user.home}/eclipseProjects/msa-architecture-config-server/conf # config file의 위치, 윈도우의 경우 "/"가 추가로 필요하다.
 
 ---
 
